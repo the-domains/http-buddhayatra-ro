@@ -1,8 +1,5 @@
-layout_spectrum: 0.6695278
-typography_spectrum: 0.7979285
 color:
   saturation: 0.8139393
-  lightness: 0.3872231
   brandStrength: 0.9671916
   rhythmicContrast: 0.320827
   brandColors:
@@ -11,4 +8,19 @@ color:
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
+  lightness: 0.3872231
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.6695278
+typography_spectrum: 0.7979285
 name: 'http://buddhayatra.ro'
